@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemasDistribuidos.HelpDesk.Config;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,6 @@ namespace SistemasDistribuidos.HelpDesk.DAO
 {
     public interface InterfaceIncidenteRepository
     {
-        bool Registrar(Incidencia incidente);
+        Response<int> Registrar(Incidencia incidencia);
     }
 }

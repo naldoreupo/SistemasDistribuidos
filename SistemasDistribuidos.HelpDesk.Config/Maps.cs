@@ -11,11 +11,11 @@ namespace SistemasDistribuidos.HelpDesk.Config
         public static IMapper InitMapper()
         {
             var config = new MapperConfiguration(cfg =>
-            {
-                cfg.CreateMap<Incidencia, IncidenteRequest>();
-                cfg.CreateMap<Incidencia, IncidenteResponse>();
-                cfg.CreateMap<IncidenteRequest, Incidencia>();
-                cfg.CreateMap<IncidenteResponse, Incidencia>();
+            {    
+                cfg.CreateMap<Incidencia, IncidenciaRequest>();
+                cfg.CreateMap<Incidencia, IncidenciaResponse>();
+                cfg.CreateMap<IncidenciaRequest, Incidencia>();
+                cfg.CreateMap<IncidenciaResponse, Incidencia>();
             });
 
             return config.CreateMapper();

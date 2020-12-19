@@ -2,7 +2,7 @@
 
 namespace SistemasDistribuidos.HelpDesk.DTO
 {
-    public class IncidenteRequest
+    public class IncidenciaRequest
     {
         public int IdIncidencia { get; set; }
         public int? IdEstado { get; set; }
@@ -19,7 +19,7 @@ namespace SistemasDistribuidos.HelpDesk.DTO
         public bool? CheckPendiente { get; set; }
         public DateTime? FechaAnulacion { get; set; }
         public bool? CheckAnulacion { get; set; }
-        public bool FechaTermino { get; set; }
+        public DateTime? FechaTermino { get; set; }
         public string CheckTermino { get; set; }
         public bool? EstaActivo { get; set; }
     }

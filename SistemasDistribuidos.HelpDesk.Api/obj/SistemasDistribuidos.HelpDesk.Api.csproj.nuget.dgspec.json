@@ -198,6 +198,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+              },
               "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
                 "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
               }
@@ -406,6 +409,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+              },
               "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
                 "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj"
               },

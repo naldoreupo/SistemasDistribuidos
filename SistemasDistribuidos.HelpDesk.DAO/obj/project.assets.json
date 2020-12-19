@@ -1527,6 +1527,34 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "SistemasDistribuidos.HelpDesk.Config/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "SistemasDistribuidos.HelpDesk.DTO": "1.0.0",
+          "SistemasDistribuidos.HelpDesk.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemasDistribuidos.HelpDesk.Config.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemasDistribuidos.HelpDesk.Config.dll": {}
+        }
+      },
+      "SistemasDistribuidos.HelpDesk.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "compile": {
+          "bin/placeholder/SistemasDistribuidos.HelpDesk.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemasDistribuidos.HelpDesk.DTO.dll": {}
+        }
+      },
       "SistemasDistribuidos.HelpDesk.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5842,6 +5870,16 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "SistemasDistribuidos.HelpDesk.Config/1.0.0": {
+      "type": "project",
+      "path": "../SistemasDistribuidos.HelpDesk.Config/SistemasDistribuidos.HelpDesk.Config.csproj",
+      "msbuildProject": "../SistemasDistribuidos.HelpDesk.Config/SistemasDistribuidos.HelpDesk.Config.csproj"
+    },
+    "SistemasDistribuidos.HelpDesk.DTO/1.0.0": {
+      "type": "project",
+      "path": "../SistemasDistribuidos.HelpDesk.DTO/SistemasDistribuidos.HelpDesk.DTO.csproj",
+      "msbuildProject": "../SistemasDistribuidos.HelpDesk.DTO/SistemasDistribuidos.HelpDesk.DTO.csproj"
+    },
     "SistemasDistribuidos.HelpDesk.Entity/1.0.0": {
       "type": "project",
       "path": "../SistemasDistribuidos.HelpDesk.Entity/SistemasDistribuidos.HelpDesk.Entity.csproj",
@@ -5856,6 +5894,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
+      "SistemasDistribuidos.HelpDesk.Config >= 1.0.0",
       "SistemasDistribuidos.HelpDesk.Entity >= 1.0.0"
     ]
   },
@@ -5886,6 +5925,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+              "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+            },
             "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
               "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
             }

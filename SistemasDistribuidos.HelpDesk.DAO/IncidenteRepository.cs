@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemasDistribuidos.HelpDesk.Config;
+using System;
 
 namespace SistemasDistribuidos.HelpDesk.DAO
 {
@@ -11,12 +12,29 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             _incidenteContext = incidenteContext;
         }
 
-        public bool Registrar(Incidencia incidente)
+        public Response<int> Registrar(Incidencia incidencia)
         {
-            _incidenteContext.Incidencia.Add(incidente);
-            _incidenteContext.SaveChanges();
-            return true;
-        }
+            try
+            {
+                _incidenteContext.Incidencias.Add(incidencia);
+                _incidenteContext.SaveChanges();
 
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Incidencia agregada correctamente",
+                    Data = incidencia.IdIncidencia
+                };
+            }
+            catch(Exception ex)
+            {
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar agregar incidencia",
+                    Data = 0
+                };
+            }
+        }
     }
 }

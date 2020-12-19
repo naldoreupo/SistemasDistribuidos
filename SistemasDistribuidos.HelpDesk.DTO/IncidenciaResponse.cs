@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SistemasDistribuidos.HelpDesk.DTO
 {
-    public class IncidenteResponse
+    public class IncidenciaResponse
     {
     }
 }

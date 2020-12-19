@@ -22,7 +22,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         public bool? CheckPendiente { get; set; }
         public DateTime? FechaAnulacion { get; set; }
         public bool? CheckAnulacion { get; set; }
-        public bool FechaTermino { get; set; }
+        public DateTime? FechaTermino { get; set; }
         public string CheckTermino { get; set; }
         public bool? EstaActivo { get; set; }
     }

@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
+          "SistemasDistribuidos.HelpDesk.Config": "1.0.0",
           "SistemasDistribuidos.HelpDesk.Entity": "1.0.0"
         },
         "runtime": {
@@ -1090,6 +1091,24 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "SistemasDistribuidos.HelpDesk.Config/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "SistemasDistribuidos.HelpDesk.DTO": "1.0.0",
+          "SistemasDistribuidos.HelpDesk.Entity": "1.0.0"
+        },
+        "runtime": {
+          "SistemasDistribuidos.HelpDesk.Config.dll": {}
+        }
+      },
+      "SistemasDistribuidos.HelpDesk.DTO/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1"
+        },
+        "runtime": {
+          "SistemasDistribuidos.HelpDesk.DTO.dll": {}
+        }
+      },
       "SistemasDistribuidos.HelpDesk.Entity/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1"
@@ -1791,6 +1810,16 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "SistemasDistribuidos.HelpDesk.Config/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemasDistribuidos.HelpDesk.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SistemasDistribuidos.HelpDesk.Entity/1.0.0": {
       "type": "project",

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.DTO;
 using SistemasDistribuidos.HelpDesk.Service;
@@ -25,9 +26,9 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpPost]
-        public bool Registrar(IncidenteRequest incidenteRequest)
+        public Response<int> Registrar(IncidenciaRequest incidenciaRequest)
         {            
-            return _incidenteService.Registrar(_mapper.Map<IncidenteRequest, Incidencia>(incidenteRequest)); ;
+            return _incidenteService.Registrar(_mapper.Map<IncidenciaRequest, Incidencia>(incidenciaRequest)); ;
         }
     }
 }

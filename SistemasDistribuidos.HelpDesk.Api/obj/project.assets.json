@@ -1550,6 +1550,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
+          "SistemasDistribuidos.HelpDesk.Config": "1.0.0",
           "SistemasDistribuidos.HelpDesk.Entity": "1.0.0"
         },
         "compile": {
@@ -1590,6 +1591,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "SistemasDistribuidos.HelpDesk.Config": "1.0.0",
           "SistemasDistribuidos.HelpDesk.DAO": "1.0.0",
           "SistemasDistribuidos.HelpDesk.Entity": "1.0.0"
         },

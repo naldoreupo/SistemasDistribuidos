@@ -17,7 +17,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         {
         }
 
-        public virtual DbSet<Incidencia> Incidencia { get; set; }
+        public virtual DbSet<Incidencia> Incidencias { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

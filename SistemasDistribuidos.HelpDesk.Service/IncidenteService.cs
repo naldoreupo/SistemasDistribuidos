@@ -1,4 +1,5 @@
-﻿using SistemasDistribuidos.HelpDesk.DAO;
+﻿using SistemasDistribuidos.HelpDesk.Config;
+using SistemasDistribuidos.HelpDesk.DAO;
 using System;
 
 namespace SistemasDistribuidos.HelpDesk.Service
@@ -11,9 +12,9 @@ namespace SistemasDistribuidos.HelpDesk.Service
         {
             _interfaceIncidenteRepository = interfaceIncidenteRepository;
         }
-        public bool Registrar(Incidencia incidente)
+        public Response<int> Registrar(Incidencia incidencia)
         {
-            return _interfaceIncidenteRepository.Registrar(incidente);
+            return _interfaceIncidenteRepository.Registrar(incidencia);
         }
     }
 }

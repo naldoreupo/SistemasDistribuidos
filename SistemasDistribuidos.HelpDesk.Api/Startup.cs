@@ -30,10 +30,11 @@ namespace SistemasDistribuidos.HelpDesk.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            IMapper iMapper = Maps.InitMapper();
-            services.AddSingleton(iMapper);
             services.AddTransient<InterfaceIncidenteRepository, IncidenteRepository>();
             services.AddTransient<InterfaceIncidenteService, IncidenteService>();
+
+            IMapper iMapper = Maps.InitMapper();
+            services.AddSingleton(iMapper);
 
             services.AddDbContext<HelpDeskDBContext>(options =>
                             options.UseSqlServer(Configuration.GetConnectionString("HelpDeskDatabase")));
