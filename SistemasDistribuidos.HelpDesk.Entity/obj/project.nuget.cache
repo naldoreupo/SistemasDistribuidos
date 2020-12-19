@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "r/cYtBeUJf89SuLGFXz3Q5RT58wtqGvPSbffsbnQt6/BDj/HUDymLklYCxvhwAmn68Fs3938Xjw1My5YCfgruA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

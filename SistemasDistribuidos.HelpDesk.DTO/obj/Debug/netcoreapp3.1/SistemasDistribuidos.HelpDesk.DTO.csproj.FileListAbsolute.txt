@@ -1,0 +1,8 @@
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.deps.json
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.pdb
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.AssemblyInfoInputs.cache
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.AssemblyInfo.cs
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.csproj.CoreCompileInputs.cache
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DTO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.pdb

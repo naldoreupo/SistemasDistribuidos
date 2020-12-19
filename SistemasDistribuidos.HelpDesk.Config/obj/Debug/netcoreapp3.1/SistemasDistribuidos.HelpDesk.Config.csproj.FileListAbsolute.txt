@@ -1,0 +1,14 @@
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.deps.json
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.pdb
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.csprojAssemblyReference.cache
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.AssemblyInfoInputs.cache
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.AssemblyInfo.cs
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.csproj.CoreCompileInputs.cache
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.pdb
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.dll
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.pdb
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.pdb
+C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Config\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.csproj.CopyComplete
