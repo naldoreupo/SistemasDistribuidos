@@ -19,13 +19,6 @@ namespace SistemasDistribuidos.HelpDesk.DAO
 
         public virtual DbSet<Incidencia> Incidencias { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=PE-IT000282\\NALDOSERVER;Database=HelpDeskDB;Trusted_Connection=True;");
-            }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
