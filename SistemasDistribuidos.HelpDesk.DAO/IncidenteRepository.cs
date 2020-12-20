@@ -1,4 +1,5 @@
 ﻿using SistemasDistribuidos.HelpDesk.Config;
+using SistemasDistribuidos.HelpDesk.Entity;
 using System;
 
 namespace SistemasDistribuidos.HelpDesk.DAO
@@ -66,7 +67,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         {
             Incidencia incidencia = _incidenteContext.Incidencias.Find(id);
 
-            if(incidencia == null)
+            if (incidencia == null)
             {
                 return new Response<Incidencia>()
                 {
@@ -81,6 +82,37 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 Message = "Incidencia obtenida correctamente",
                 Data = incidencia
             };
+        }
+
+        public Response<int> EscalarProvExt(MovimientoProveedor movimiento)
+        {
+            try
+            {
+                var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
+
+                incidencia.IdEstado = 5;
+
+                _incidenteContext.Incidencias.Update(incidencia);
+                _incidenteContext.MovimientosDeProveedor.Add(movimiento);
+
+                _incidenteContext.SaveChanges();
+
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Se escaló a proveedor externo correctamente",
+                    Data = incidencia.IdIncidencia
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar escalar la incidencia " + ex.Message,
+                    Data = 0
+                };
+            }
         }
     }
 }

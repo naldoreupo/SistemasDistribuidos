@@ -9,7 +9,6 @@ C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuid
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.deps.json
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.dll
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.pdb
-C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.csprojAssemblyReference.cache
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.AssemblyInfoInputs.cache
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.AssemblyInfo.cs
 C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.csproj.CoreCompileInputs.cache
