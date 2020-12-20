@@ -11,5 +11,6 @@ namespace SistemasDistribuidos.HelpDesk.Service
         Response<int> Anular(int idIncidencia);
 
         Response<int> EscalarProvExt(MovimientoProveedor movimiento);
+        Response<int> ObtenerEstado(int idIncidencia);
     }
 }

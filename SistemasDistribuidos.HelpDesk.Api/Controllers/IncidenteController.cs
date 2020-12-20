@@ -40,5 +40,12 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         {
             return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
         }
+
+        [HttpGet]
+        [Route("obtenerestado/{idIncidencia}")]
+        public Response<int> ObtenerEstado(int idIncidencia)
+        {
+            return _incidenteService.ObtenerEstado(idIncidencia);
+        }
     }
 }

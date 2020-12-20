@@ -42,5 +42,17 @@ namespace SistemasDistribuidos.HelpDesk.Service
         {
             return _interfaceIncidenteRepository.EscalarProvExt(movimiento);
         }
+
+        public Response<int> ObtenerEstado(int idIncidencia)
+        {
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+
+            return new Response<int>
+            {
+                Status = true,
+                Message = "Se encontró el estado actual de la incidencia",
+                Data = (int)incidencia.Data.IdEstado
+            };
+        }
     }
 }
