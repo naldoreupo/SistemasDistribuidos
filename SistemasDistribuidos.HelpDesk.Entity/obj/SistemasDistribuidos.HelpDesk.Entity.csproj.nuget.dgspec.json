@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {}
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.Entity",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

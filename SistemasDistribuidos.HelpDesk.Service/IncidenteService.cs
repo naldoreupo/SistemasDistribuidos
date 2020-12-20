@@ -12,6 +12,26 @@ namespace SistemasDistribuidos.HelpDesk.Service
         {
             _interfaceIncidenteRepository = interfaceIncidenteRepository;
         }
+
+        public Response<int> Anular(int idIncidencia)
+        {
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+
+            if (incidencia.Status)
+            {
+                incidencia.Data.FechaAnulacion = DateTime.Now;
+                incidencia.Data.CheckAnulacion = true;
+
+                return _interfaceIncidenteRepository.Anular(incidencia.Data);
+            }
+
+            return new Response<int>
+            {
+                Status = false,
+                Message = "El IdIncidencia no se encuentra en la base de datos"
+            };
+        }
+
         public Response<int> Registrar(Incidencia incidencia)
         {
             return _interfaceIncidenteRepository.Registrar(incidencia);
