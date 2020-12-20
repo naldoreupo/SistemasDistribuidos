@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.DTO;
+using SistemasDistribuidos.HelpDesk.Entity;
 using SistemasDistribuidos.HelpDesk.Service;
 
 namespace SistemasDistribuidos.HelpDesk.Api.Controllers
@@ -31,6 +32,13 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         public Response<int> Anular(int idIncidencia)
         {
             return _incidenteService.Anular(idIncidencia);
+        }
+
+        [HttpPost]
+        [Route("escalarext")]
+        public Response<int> EscalarProvExterno(MovimientoProveedorRequest movimiento)
+        {
+            return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
         }
     }
 }

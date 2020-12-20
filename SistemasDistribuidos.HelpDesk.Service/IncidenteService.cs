@@ -1,5 +1,6 @@
 ﻿using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
+using SistemasDistribuidos.HelpDesk.Entity;
 using System;
 
 namespace SistemasDistribuidos.HelpDesk.Service
@@ -35,6 +36,11 @@ namespace SistemasDistribuidos.HelpDesk.Service
         public Response<int> Registrar(Incidencia incidencia)
         {
             return _interfaceIncidenteRepository.Registrar(incidencia);
+        }
+
+        public Response<int> EscalarProvExt(MovimientoProveedor movimiento)
+        {
+            return _interfaceIncidenteRepository.EscalarProvExt(movimiento);
         }
     }
 }

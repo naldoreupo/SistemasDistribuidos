@@ -1,5 +1,6 @@
 ﻿using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
+using SistemasDistribuidos.HelpDesk.Entity;
 
 namespace SistemasDistribuidos.HelpDesk.Service
 {
@@ -8,5 +9,7 @@ namespace SistemasDistribuidos.HelpDesk.Service
         Response<int> Registrar(Incidencia incidencia);
 
         Response<int> Anular(int idIncidencia);
+
+        Response<int> EscalarProvExt(MovimientoProveedor movimiento);
     }
 }

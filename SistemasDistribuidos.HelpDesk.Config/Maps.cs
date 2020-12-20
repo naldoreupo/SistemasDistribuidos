@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.DTO;
+using SistemasDistribuidos.HelpDesk.Entity;
 using System;
 
 namespace SistemasDistribuidos.HelpDesk.Config
@@ -16,6 +17,11 @@ namespace SistemasDistribuidos.HelpDesk.Config
                 cfg.CreateMap<Incidencia, IncidenciaResponse>();
                 cfg.CreateMap<IncidenciaRequest, Incidencia>();
                 cfg.CreateMap<IncidenciaResponse, Incidencia>();
+
+                cfg.CreateMap<MovimientoProveedor, MovimientoProveedorRequest>();
+                cfg.CreateMap<MovimientoProveedor, MovimientoProveedorResponse>();
+                cfg.CreateMap<MovimientoProveedorRequest, MovimientoProveedor>();
+                cfg.CreateMap<MovimientoProveedorResponse, MovimientoProveedor>();
             });
 
             return config.CreateMapper();
