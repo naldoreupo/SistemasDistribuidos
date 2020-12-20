@@ -32,7 +32,7 @@ namespace SistemasDistribuidos.HelpDesk.Api
         {
             services.AddTransient<InterfaceIncidenteRepository, IncidenteRepository>();
             services.AddTransient<InterfaceIncidenteService, IncidenteService>();
-
+            
             IMapper iMapper = Maps.InitMapper();
             services.AddSingleton(iMapper);
 
@@ -53,7 +53,7 @@ namespace SistemasDistribuidos.HelpDesk.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

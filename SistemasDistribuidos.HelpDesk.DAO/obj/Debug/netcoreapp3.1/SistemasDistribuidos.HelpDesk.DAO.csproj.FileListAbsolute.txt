@@ -17,3 +17,22 @@ C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuid
 C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.dll
 C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.pdb
 C:\Users\naldo.reupomusayon\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.deps.json
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.runtimeconfig.json
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.runtimeconfig.dev.json
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.dll
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.dll
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.dll
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.dll
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Config.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\bin\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DTO.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.csprojAssemblyReference.cache
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.AssemblyInfoInputs.cache
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.AssemblyInfo.cs
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.csproj.CopyComplete
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.dll
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.pdb
+C:\Users\Daniel Quintana\Desktop\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.DAO\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.DAO.genruntimeconfig.cache

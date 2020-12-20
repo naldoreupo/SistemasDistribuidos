@@ -26,7 +26,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                     Data = incidencia.IdIncidencia
                 };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new Response<int>()
                 {
@@ -35,6 +35,52 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                     Data = 0
                 };
             }
+        }
+
+        public Response<int> Anular(Incidencia incidencia)
+        {
+            try
+            {
+                _incidenteContext.Incidencias.Update(incidencia);
+                _incidenteContext.SaveChanges();
+
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Incidencia anulada correctamente",
+                    Data = incidencia.IdIncidencia
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar anular la incidencia " + ex.Message,
+                    Data = 0
+                };
+            }
+        }
+
+        public Response<Incidencia> Obtener(int id)
+        {
+            Incidencia incidencia = _incidenteContext.Incidencias.Find(id);
+
+            if(incidencia == null)
+            {
+                return new Response<Incidencia>()
+                {
+                    Status = false,
+                    Message = "No se encontró una incidencia con el id enviado."
+                };
+            }
+
+            return new Response<Incidencia>()
+            {
+                Status = true,
+                Message = "Incidencia obtenida correctamente",
+                Data = incidencia
+            };
         }
     }
 }

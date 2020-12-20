@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj": {}
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.Api",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\SistemasDistribuidos.HelpDesk.Api.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,20 +28,20 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj"
               }
             }
           }
@@ -103,21 +103,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.Config",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,11 +131,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
               }
             }
           }
@@ -170,21 +170,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.DAO",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,11 +198,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
               }
             }
           }
@@ -261,21 +261,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.DTO",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -321,21 +321,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.Entity",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -381,21 +381,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj": {
+    "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj",
         "projectName": "SistemasDistribuidos.HelpDesk.Service",
-        "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj",
-        "packagesPath": "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\SistemasDistribuidos.HelpDesk.Service.csproj",
+        "packagesPath": "C:\\Users\\Daniel Quintana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naldo.reupomusayon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Quintana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -409,14 +409,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Config\\SistemasDistribuidos.HelpDesk.Config.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DAO\\SistemasDistribuidos.HelpDesk.DAO.csproj"
               },
-              "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
-                "projectPath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
+              "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj": {
+                "projectPath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.Entity\\SistemasDistribuidos.HelpDesk.Entity.csproj"
               }
             }
           }
@@ -451,7 +451,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

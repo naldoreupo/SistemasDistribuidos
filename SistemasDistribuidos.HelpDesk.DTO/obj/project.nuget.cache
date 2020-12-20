@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qLrNwSwo3+PXd07PekRiIg+AI6f0XC8SyE826WYesHj6HVhHnbUKrgp/7NC5SqeThHxLC+heoUKSJaEG+k2XFg==",
+  "dgSpecHash": "WYgYnykIQ2X6jOqRR8Zv+Hk6QxBMBjgzJIVA03hXgSzBmLGxpgeZaWQ95RRlSW9VTGDxpUnvZQojseas0wBupg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\naldo.reupomusayon\\source\\repos\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
+  "projectFilePath": "C:\\Users\\Daniel Quintana\\Desktop\\SistemasDistribuidos\\SistemasDistribuidos.HelpDesk.DTO\\SistemasDistribuidos.HelpDesk.DTO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\naldo.reupomusayon\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\Daniel Quintana\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Daniel Quintana\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Daniel Quintana\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
