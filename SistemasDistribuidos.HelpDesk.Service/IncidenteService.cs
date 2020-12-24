@@ -75,5 +75,10 @@ namespace SistemasDistribuidos.HelpDesk.Service
                 Data = (int)incidencia.Data.IdEstado
             };
         }
-    }
+
+		public Response<int> ObtenerInc(int idIncidencia)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }
