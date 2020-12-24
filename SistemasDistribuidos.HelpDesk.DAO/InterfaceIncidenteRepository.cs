@@ -9,6 +9,9 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         Response<int> Anular(Incidencia incidencia);
         Response<Incidencia> Obtener(int idIncidencia);
 
+        Response<int> EscalarInt(Incidencia incidencia);
+
         Response<int> EscalarProvExt(MovimientoProveedor movimiento);
-    }
+		Response<int> Derivar(Incidencia incidencia);
+	}
 }

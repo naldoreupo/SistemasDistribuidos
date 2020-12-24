@@ -54,5 +54,26 @@ namespace SistemasDistribuidos.HelpDesk.Service
                 Data = (int)incidencia.Data.IdEstado
             };
         }
+
+        public Response<int> EscalarInt(Incidencia incidencia)
+        {
+            return _interfaceIncidenteRepository.EscalarInt(incidencia);
+        }
+
+        public Response<int> Derivar(Incidencia incidencia)
+        {
+            return _interfaceIncidenteRepository.Derivar(incidencia);
+        }
+
+        public Response<int> Obtener(int idIncidencia)
+        {
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+            return new Response<int>
+            {
+                Status = true,
+                Message = "Se encontró el estado actual de la incidencia",
+                Data = (int)incidencia.Data.IdEstado
+            };
+        }
     }
 }

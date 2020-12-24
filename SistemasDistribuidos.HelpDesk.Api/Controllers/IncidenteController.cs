@@ -28,11 +28,21 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpPut]
+        [Route("obtener/{incidencia}")]
+        public Response<int> ObtenerInc(int idIncidencia)
+        {
+            return _incidenteService.ObtenerInc(idIncidencia);
+        }
+
+
+        [HttpPut]
         [Route("anular/{idIncidencia}")]
         public Response<int> Anular(int idIncidencia)
         {
             return _incidenteService.Anular(idIncidencia);
         }
+
+
 
         [HttpPost]
         [Route("escalarext")]
@@ -40,6 +50,21 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         {
             return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
         }
+
+        [HttpPost]
+        [Route("escalarint")]
+        public Response<int> EscalarInt(IncidenciaRequest incidenciaRequest)
+        {
+            return _incidenteService.EscalarInt(_mapper.Map<IncidenciaRequest, Incidencia>(incidenciaRequest));
+        }
+
+        [HttpPost]
+        [Route("derivar")]
+        public Response<int> Derivar(IncidenciaRequest incidenciaRequest)
+        {
+            return _incidenteService.EscalarInt(_mapper.Map<IncidenciaRequest, Incidencia>(incidenciaRequest));
+        }
+
 
         [HttpGet]
         [Route("obtenerestado/{idIncidencia}")]
