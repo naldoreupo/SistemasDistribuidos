@@ -12,8 +12,8 @@ namespace SistemasDistribuidos.HelpDesk.Service
 
         Response<int> EscalarProvExt(MovimientoProveedor movimiento);
         Response<int> ObtenerEstado(int idIncidencia);
-		Response<int> EscalarInt(Incidencia incidencia);
-        Response<int> Derivar(Incidencia incidencia);
-		Response<int> ObtenerInc(int idIncidencia);
+		Response<int> EscalarInt(int idIncidencia);
+        Response<int> Derivar(int idIncidencia);
+		Response<int> ObtenerIncidencia(int idIncidencia);
 	}
 }

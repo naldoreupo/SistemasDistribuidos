@@ -32,7 +32,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 return new Response<int>()
                 {
                     Status = false,
-                    Message = "Error al intentar agregar incidencia",
+                    Message = "Error al intentar agregar incidencia - " + ex.Message,
                     Data = 0
                 };
             }
@@ -57,7 +57,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 return new Response<int>()
                 {
                     Status = false,
-                    Message = "Error al intentar anular la incidencia " + ex.Message,
+                    Message = "Error al intentar anular la incidencia - " + ex.Message,
                     Data = 0
                 };
             }
@@ -114,5 +114,25 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 };
             }
         }
-    }
+
+		public Response<int> EscalarInt(Incidencia incidencia)
+		{
+            return new Response<int>()
+            {
+                Status = true,
+                Message = "Incidencia escalada",
+                Data = incidencia.IdIncidencia
+            };
+        }
+
+		public Response<int> Derivar(Incidencia incidencia)
+		{
+            return new Response<int>()
+            {
+                Status = true,
+                Message = "Incidencia derivada",
+                Data = incidencia.IdIncidencia
+            };
+        }
+	}
 }

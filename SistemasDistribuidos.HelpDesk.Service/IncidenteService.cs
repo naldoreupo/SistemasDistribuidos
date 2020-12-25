@@ -50,35 +50,44 @@ namespace SistemasDistribuidos.HelpDesk.Service
             return new Response<int>
             {
                 Status = true,
-                Message = "Se encontró el estado actual de la incidencia",
+                Message = "Se encontró el estado actual de la incidencia 1",
                 Data = (int)incidencia.Data.IdEstado
             };
         }
 
-        public Response<int> EscalarInt(Incidencia incidencia)
-        {
-            return _interfaceIncidenteRepository.EscalarInt(incidencia);
-        }
-
-        public Response<int> Derivar(Incidencia incidencia)
-        {
-            return _interfaceIncidenteRepository.Derivar(incidencia);
-        }
-
-        public Response<int> Obtener(int idIncidencia)
+        public Response<int> EscalarInt(int idIncidencia)
         {
             var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
             return new Response<int>
             {
                 Status = true,
-                Message = "Se encontró el estado actual de la incidencia",
-                Data = (int)incidencia.Data.IdEstado
+                Message = "Escalar internamente",
+                Data = incidencia.Data.IdIncidencia
             };
+            //return _interfaceIncidenteRepository.EscalarInt(incidencia);
         }
 
-		public Response<int> ObtenerInc(int idIncidencia)
+        public Response<int> Derivar(int idIncidencia)
+        {
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+            return new Response<int>
+            {
+                Status = true,
+                Message = "Derivar",
+                Data = incidencia.Data.IdIncidencia
+            };
+            //return _interfaceIncidenteRepository.Derivar(incidencia);
+        }
+
+		public Response<int> ObtenerIncidencia(int idIncidencia)
 		{
-			throw new NotImplementedException();
-		}
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+            return new Response<int>
+            {
+                Status = true,
+                Message = "Se encontró el estado actual de la incidencia 3",
+                Data = incidencia.Data.IdIncidencia
+            };
+        }
 	}
 }
