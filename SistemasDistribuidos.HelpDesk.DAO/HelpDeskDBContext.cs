@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 using SistemasDistribuidos.HelpDesk.Entity;
 
 #nullable disable
@@ -21,7 +19,8 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         public virtual DbSet<Incidencia> Incidencias { get; set; }
 
         public virtual DbSet<MovimientoProveedor> MovimientosDeProveedor { get; set; }
-
+        public virtual DbSet<MovimientoUsuario> MovimientoUsuario { get; set; }
+        public virtual DbSet<SolicitudSupervisor> SolicitudesASupervisor { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

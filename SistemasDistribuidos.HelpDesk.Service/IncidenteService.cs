@@ -50,44 +50,26 @@ namespace SistemasDistribuidos.HelpDesk.Service
             return new Response<int>
             {
                 Status = true,
-                Message = "Se encontró el estado actual de la incidencia 1",
+                Message = "Se encontró el estado actual de la incidencia",
                 Data = (int)incidencia.Data.IdEstado
             };
         }
 
-        public Response<int> EscalarInt(int idIncidencia)
+       
+        public Response<int> EscalarInt(MovimientoUsuario movimiento)
         {
-            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
-            return new Response<int>
-            {
-                Status = true,
-                Message = "Escalar internamente",
-                Data = incidencia.Data.IdIncidencia
-            };
-            //return _interfaceIncidenteRepository.EscalarInt(incidencia);
+            return _interfaceIncidenteRepository.EscalarInt(movimiento);
         }
 
-        public Response<int> Derivar(int idIncidencia)
+        
+        public Response<int> Derivar(MovimientoUsuario movimiento)
         {
-            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
-            return new Response<int>
-            {
-                Status = true,
-                Message = "Derivar",
-                Data = incidencia.Data.IdIncidencia
-            };
-            //return _interfaceIncidenteRepository.Derivar(incidencia);
+            return _interfaceIncidenteRepository.Derivar(movimiento);
         }
 
-		public Response<int> ObtenerIncidencia(int idIncidencia)
+		public Incidencia ObtenerIncidencia(int idIncidencia)
 		{
-            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
-            return new Response<int>
-            {
-                Status = true,
-                Message = "Se encontró el estado actual de la incidencia 3",
-                Data = incidencia.Data.IdIncidencia
-            };
+            return _interfaceIncidenteRepository.Obtener(idIncidencia).Data;
         }
-	}
+    }
 }

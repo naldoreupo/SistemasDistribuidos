@@ -23,4 +23,3 @@ C:\Users\Raul\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.En
 C:\Users\Raul\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.csproj.CoreCompileInputs.cache
 C:\Users\Raul\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.dll
 C:\Users\Raul\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.pdb
-C:\Users\Raul\source\repos\SistemasDistribuidos\SistemasDistribuidos.HelpDesk.Entity\obj\Debug\netcoreapp3.1\SistemasDistribuidos.HelpDesk.Entity.csprojAssemblyReference.cache

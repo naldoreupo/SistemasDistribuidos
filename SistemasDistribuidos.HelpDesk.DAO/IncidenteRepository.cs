@@ -94,7 +94,6 @@ namespace SistemasDistribuidos.HelpDesk.DAO
 
                 _incidenteContext.Incidencias.Update(incidencia);
                 _incidenteContext.MovimientosDeProveedor.Add(movimiento);
-
                 _incidenteContext.SaveChanges();
 
                 return new Response<int>()
@@ -115,24 +114,75 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             }
         }
 
-		public Response<int> EscalarInt(Incidencia incidencia)
+
+        public Response<int> EscalarInt(MovimientoUsuario movimiento)
 		{
-            return new Response<int>()
+            try
             {
-                Status = true,
-                Message = "Incidencia escalada",
-                Data = incidencia.IdIncidencia
-            };
+                var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
+                incidencia.IdEstado = 4; // Escalado Interno
+                
+                _incidenteContext.Incidencias.Update(incidencia);
+
+                if (!movimiento.FechaRegistro.HasValue)
+                    movimiento.FechaRegistro = DateTime.Now;
+                if (movimiento.Correlativo == null)
+                    movimiento.Correlativo = 1;
+                movimiento.EstaActivo = true;
+                _incidenteContext.MovimientoUsuario.Add(movimiento);
+                _incidenteContext.SaveChanges();
+
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Se escaló internamente correctamente ",
+                    Data = 0
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar escalar la incidencia " + ex.Message,
+                    Data = 0
+                };
+            }
         }
 
-		public Response<int> Derivar(Incidencia incidencia)
+		public Response<int> Derivar(MovimientoUsuario movimiento)
 		{
-            return new Response<int>()
+            try
             {
-                Status = true,
-                Message = "Incidencia derivada",
-                Data = incidencia.IdIncidencia
-            };
+                var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
+                incidencia.IdEstado = 3; // Derivado
+
+                _incidenteContext.Incidencias.Update(incidencia);
+
+                if (!movimiento.FechaRegistro.HasValue)
+                    movimiento.FechaRegistro = DateTime.Now;
+                if (movimiento.Correlativo == null)
+                    movimiento.Correlativo = 1;
+                movimiento.EstaActivo = true;
+                _incidenteContext.MovimientoUsuario.Add(movimiento);
+                _incidenteContext.SaveChanges();
+
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Se derivó correctamente ",
+                    Data = 0
+                };
+            }
+            catch (Exception ex)
+            {
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar derivar la incidencia " + ex.Message,
+                    Data = 0
+                };
+            }
         }
 	}
 }
