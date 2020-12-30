@@ -22,6 +22,12 @@ namespace SistemasDistribuidos.HelpDesk.Config
                 cfg.CreateMap<MovimientoProveedor, MovimientoProveedorResponse>();
                 cfg.CreateMap<MovimientoProveedorRequest, MovimientoProveedor>();
                 cfg.CreateMap<MovimientoProveedorResponse, MovimientoProveedor>();
+
+                cfg.CreateMap<MovimientoUsuario, MovimientoUsuarioRequest>();
+                cfg.CreateMap<MovimientoUsuarioRequest, MovimientoUsuario>();
+
+                cfg.CreateMap<SolicitudSupervisor, SolicitudSupervisorRequest>();
+                cfg.CreateMap<SolicitudSupervisorRequest, SolicitudSupervisor>();
             });
 
             return config.CreateMapper();
