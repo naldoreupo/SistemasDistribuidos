@@ -1,6 +1,7 @@
 ﻿using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.Entity;
+using System.Collections.Generic;
 
 namespace SistemasDistribuidos.HelpDesk.Service
 {
@@ -15,5 +16,10 @@ namespace SistemasDistribuidos.HelpDesk.Service
 		Response<int> EscalarInt(MovimientoUsuario movimiento);
         Response<int> Derivar(MovimientoUsuario movimiento);
 		Incidencia ObtenerIncidencia(int idIncidencia);
-	}
+
+        Response<int> Reabrir(int idIncidencia);
+        Response<int> SolicitarEscalamiento(int idIncidencia);
+        Response<int> Autorizar(int idIncidencia);
+        Response<List<Incidencia>> Listar();
+    }
 }
