@@ -290,5 +290,34 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             }
         }
 
+        public Response<int> Cerrar(Incidencia incidencia)
+        {
+            try
+            {
+                _incidenteContext.Incidencias.Update(incidencia);
+                _incidenteContext.SaveChanges();
+                return new Response<int>()
+                {
+                    Status = true,
+                    Message = "Incidencia cerrada correctamente",
+                    Data = incidencia.IdIncidencia
+
+                };
+            }
+
+            catch (Exception ex)
+            {
+
+                return new Response<int>()
+                {
+                    Status = false,
+                    Message = "Error al intentar al cerrar la incidencia " + ex.Message,
+                    Data = 0
+                };
+            }
+
+
+        }
+
     }
 }

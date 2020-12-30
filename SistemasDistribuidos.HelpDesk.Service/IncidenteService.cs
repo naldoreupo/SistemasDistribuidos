@@ -137,5 +137,25 @@ namespace SistemasDistribuidos.HelpDesk.Service
                 Message = "El IdIncidencia no se encuentra en la base de datos"
             };
         }
+
+        public Response<int> Cerrar(int idIncidencia)
+        {
+            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
+
+
+            if (incidencia.Status)
+            {
+                incidencia.Data.EstaActivo = false;
+
+                return _interfaceIncidenteRepository.Cerrar(incidencia.Data);
+            }
+
+            return new Response<int>
+            {
+                Status = false,
+                Message = "La incidencia no se encuentra"
+            };
+
+        }
     }
 }

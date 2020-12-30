@@ -104,5 +104,12 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         {
             return _incidenteService.Autorizar(idIncidencia);
         }
+
+        [HttpGet]
+        [Route("cerrar/{idIncidencia}")]
+        public Response<int> Cerrar(int idIncidencia)
+        {
+            return _incidenteService.Cerrar(idIncidencia);
+        }
     }
 }
