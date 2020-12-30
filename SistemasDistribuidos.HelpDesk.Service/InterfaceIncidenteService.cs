@@ -19,6 +19,6 @@ namespace SistemasDistribuidos.HelpDesk.Service
         Response<int> Reabrir(int idIncidencia);
         Response<int> SolicitarEscalamiento(int idIncidencia);
         Response<int> Autorizar(int idIncidencia);
-        Response<List<Incidencia>> Listar();
+        Response<Incidencia> Listar();
     }
 }

@@ -56,20 +56,20 @@ namespace SistemasDistribuidos.HelpDesk.Service
             };
         }
 
-       
+
         public Response<int> EscalarInt(MovimientoUsuario movimiento)
         {
             return _interfaceIncidenteRepository.EscalarInt(movimiento);
         }
 
-        
+
         public Response<int> Derivar(MovimientoUsuario movimiento)
         {
             return _interfaceIncidenteRepository.Derivar(movimiento);
         }
 
-		public Response<Incidencia> ObtenerIncidencia(int idIncidencia)
-		{
+        public Response<Incidencia> ObtenerIncidencia(int idIncidencia)
+        {
             return _interfaceIncidenteRepository.Obtener(idIncidencia);
         }
 
@@ -122,7 +122,7 @@ namespace SistemasDistribuidos.HelpDesk.Service
             };
         }
 
-        public Response<List<Incidencia>> Listar()
+        public Response<Incidencia> Listar()
         {
             var incidencia = _interfaceIncidenteRepository.Listar();
 
@@ -131,7 +131,7 @@ namespace SistemasDistribuidos.HelpDesk.Service
                 return _interfaceIncidenteRepository.Listar();
             }
 
-            return new Response<List<Incidencia>>
+            return new Response<Incidencia>
             {
                 Status = false,
                 Message = "El IdIncidencia no se encuentra en la base de datos"

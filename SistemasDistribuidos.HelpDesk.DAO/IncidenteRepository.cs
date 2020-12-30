@@ -265,23 +265,23 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             }
         }
 
-        public Response<List<Incidencia>> Listar()
+        public Response<Incidencia> Listar()
         {
             try
             {
                 var incidencias = _incidenteContext.Incidencias.Where(i => true).ToList();
                 _incidenteContext.SaveChanges();
 
-                return new Response<List<Incidencia>>()
+                return new Response<Incidencia>()
                 {
                     Status = true,
                     Message = "Incidencias listadas correctamente",
-                    Data = incidencias
+                    List = incidencias
                 };
             }
             catch (Exception ex)
             {
-                return new Response<List<Incidencia>>()
+                return new Response<Incidencia>()
                 {
                     Status = false,
                     Message = "Error al intentar listar las incidencias " + ex.Message,
