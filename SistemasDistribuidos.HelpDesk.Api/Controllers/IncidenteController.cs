@@ -28,8 +28,8 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpGet]
-        [Route("obtener/{idIncidencia}")]
-        public Incidencia ObtenerIncidencia(int idIncidencia)
+        [Route("{idIncidencia}")]
+        public Response<Incidencia> ObtenerIncidencia(int idIncidencia)
         {
             return _incidenteService.ObtenerIncidencia(idIncidencia);
         }
