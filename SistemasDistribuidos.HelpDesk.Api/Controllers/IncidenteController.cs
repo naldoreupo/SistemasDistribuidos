@@ -5,6 +5,7 @@ using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.DTO;
 using SistemasDistribuidos.HelpDesk.Entity;
 using SistemasDistribuidos.HelpDesk.Service;
+using System.Collections.Generic;
 
 namespace SistemasDistribuidos.HelpDesk.Api.Controllers
 {
@@ -71,6 +72,34 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         public Response<int> ObtenerEstado(int idIncidencia)
         {
             return _incidenteService.ObtenerEstado(idIncidencia);
+        }
+
+        [HttpPut]
+        [Route("reabrir/{idIncidencia}")]
+        public Response<int> Reabrir(int idIncidencia)
+        {
+            return _incidenteService.Reabrir(idIncidencia);
+        }
+
+        [HttpPut]
+        [Route("solicitarEscalamiento/{idIncidencia}")]
+        public Response<int> SolicitarEscalamiento(int idIncidencia)
+        {
+            return _incidenteService.SolicitarEscalamiento(idIncidencia);
+        }
+
+        [HttpPut]
+        [Route("autorizar/{idIncidencia}")]
+        public Response<int> Autorizar(int idIncidencia)
+        {
+            return _incidenteService.Autorizar(idIncidencia);
+        }
+
+        [HttpGet]
+        [Route("listar")]
+        public Response<List<Incidencia>> Listar()
+        {
+            return _incidenteService.Listar();
         }
     }
 }
