@@ -68,9 +68,9 @@ namespace SistemasDistribuidos.HelpDesk.Service
             return _interfaceIncidenteRepository.Derivar(movimiento);
         }
 
-		public Incidencia ObtenerIncidencia(int idIncidencia)
+		public Response<Incidencia> ObtenerIncidencia(int idIncidencia)
 		{
-            return _interfaceIncidenteRepository.Obtener(idIncidencia).Data;
+            return _interfaceIncidenteRepository.Obtener(idIncidencia);
         }
 
         public Response<int> Reabrir(int idIncidencia)
