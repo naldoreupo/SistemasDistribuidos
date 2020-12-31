@@ -20,7 +20,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
 
         public virtual DbSet<MovimientoProveedor> MovimientosDeProveedor { get; set; }
         public virtual DbSet<MovimientoUsuario> MovimientoUsuario { get; set; }
-        public virtual DbSet<SolicitudSupervisor> SolicitudesASupervisor { get; set; }
+        public virtual DbSet<SolicitudSupervisor> SolicitudSupervisor { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -57,6 +57,22 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<SolicitudSupervisor>(entity =>
+            {
+                entity.HasKey(e => e.IdSolicitud);
+
+                entity.Property(e => e.Descripcion)
+                    .IsRequired()
+                    .HasMaxLength(200)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.EstaActivo).HasDefaultValueSql("((1))");
+
+                entity.Property(e => e.FechaAprobacion).HasColumnType("date");
+
+                entity.Property(e => e.FechaRegistro).HasColumnType("date");
             });
 
             OnModelCreatingPartial(modelBuilder);

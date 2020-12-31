@@ -17,8 +17,8 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         Response<int> Derivar(MovimientoUsuario movimiento);
 
         Response<int> Reabrir(Incidencia incidencia);
-        Response<int> SolicitarEscalamiento(Incidencia incidencia);
-        Response<int> Autorizar(Incidencia incidencia);
+        Response<int> SolicitarEscalamiento(SolicitudSupervisor solicitud);
+        Response<int> Autorizar(int idSolicitud);
         Response<Incidencia> Listar();
         Response<int> Cerrar(Incidencia incidencia);
     }

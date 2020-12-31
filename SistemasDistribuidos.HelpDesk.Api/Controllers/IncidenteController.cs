@@ -91,18 +91,19 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
             return _incidenteService.Reabrir(idIncidencia);
         }
 
-        [HttpPut]
-        [Route("solicitarEscalamiento/{idIncidencia}")]
-        public Response<int> SolicitarEscalamiento(int idIncidencia)
+        [HttpPost]
+        [Produces("application/json", Type = typeof(Response<int>))]
+        [Route("solicitarEscalamiento")]
+        public Response<int> SolicitarEscalamiento(SolicitudSupervisorRequest solicitud)
         {
-            return _incidenteService.SolicitarEscalamiento(idIncidencia);
+            return _incidenteService.SolicitarEscalamiento(_mapper.Map<SolicitudSupervisorRequest, SolicitudSupervisor>(solicitud));
         }
 
         [HttpPut]
-        [Route("autorizar/{idIncidencia}")]
-        public Response<int> Autorizar(int idIncidencia)
+        [Route("autorizar")]
+        public Response<int> Autorizar(int idMovimiento)
         {
-            return _incidenteService.Autorizar(idIncidencia);
+            return _incidenteService.Autorizar(idMovimiento);
         }
 
         [HttpGet]

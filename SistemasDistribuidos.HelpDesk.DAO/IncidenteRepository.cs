@@ -215,18 +215,21 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             }
         }
 
-        public Response<int> SolicitarEscalamiento(Incidencia incidencia)
+        public Response<int> SolicitarEscalamiento(SolicitudSupervisor solicitud)
         {
             try
             {
-                _incidenteContext.Incidencias.Update(incidencia);
+                if (!solicitud.FechaRegistro.HasValue)
+                    solicitud.FechaRegistro = DateTime.Now;
+
+                _incidenteContext.SolicitudSupervisor.Add(solicitud);
                 _incidenteContext.SaveChanges();
 
                 return new Response<int>()
                 {
                     Status = true,
-                    Message = "Escalamiento solicitado correctamente",
-                    Data = incidencia.IdIncidencia
+                    Message = "Solicitud agregada correctamente",
+                    Data = solicitud.IdSolicitud
                 };
             }
             catch (Exception ex)
@@ -234,24 +237,39 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 return new Response<int>()
                 {
                     Status = false,
-                    Message = "Error al intentar solicitar escalamiento" + ex.Message,
+                    Message = "Error al intentar agregar Solicitud - " + ex.Message,
                     Data = 0
                 };
             }
         }
 
-        public Response<int> Autorizar(Incidencia incidencia)
+        public Response<int> Autorizar(int idSolicitud)
         {
             try
             {
-                _incidenteContext.Incidencias.Update(incidencia);
+                SolicitudSupervisor solicitud = _incidenteContext.SolicitudSupervisor.Find(idSolicitud);
+
+                if (solicitud == null)
+                {
+                    return new Response<int>()
+                    {
+                        Status = false,
+                        Message = "No se encontró una solicitud con el id enviado."
+                    };
+                }
+
+                solicitud.EstaActivo = false;
+                if (!solicitud.FechaAprobacion.HasValue)
+                    solicitud.FechaAprobacion = DateTime.Now;
+
+                _incidenteContext.SolicitudSupervisor.Update(solicitud);
                 _incidenteContext.SaveChanges();
 
                 return new Response<int>()
                 {
                     Status = true,
-                    Message = "Incidencia autorizada correctamente",
-                    Data = incidencia.IdIncidencia
+                    Message = "Solicitud autorizada correctamente",
+                    Data = solicitud.IdSolicitud
                 };
             }
             catch (Exception ex)
@@ -259,7 +277,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
                 return new Response<int>()
                 {
                     Status = false,
-                    Message = "Error al intentar autorizar la incidencia " + ex.Message,
+                    Message = "Error al intentar autorizar la solicitud " + ex.Message,
                     Data = 0
                 };
             }
