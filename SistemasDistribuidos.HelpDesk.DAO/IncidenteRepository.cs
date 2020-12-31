@@ -92,7 +92,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             {
                 var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
 
-                incidencia.IdEstado = 5;
+                incidencia.IdEstado = 3;
 
                 _incidenteContext.Incidencias.Update(incidencia);
                 _incidenteContext.MovimientosDeProveedor.Add(movimiento);
@@ -122,7 +122,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             try
             {
                 var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
-                incidencia.IdEstado = 4; // Escalado Interno
+                incidencia.IdEstado = 2; // Escalado Interno
                 
                 _incidenteContext.Incidencias.Update(incidencia);
 
@@ -157,7 +157,7 @@ namespace SistemasDistribuidos.HelpDesk.DAO
             try
             {
                 var incidencia = _incidenteContext.Incidencias.Find(movimiento.IdIncidencia);
-                incidencia.IdEstado = 3; // Derivado
+                incidencia.IdEstado = 1; // Derivado
 
                 _incidenteContext.Incidencias.Update(incidencia);
 
