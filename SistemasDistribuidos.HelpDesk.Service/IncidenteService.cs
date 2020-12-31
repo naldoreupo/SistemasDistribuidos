@@ -91,35 +91,14 @@ namespace SistemasDistribuidos.HelpDesk.Service
                 Message = "El IdIncidencia no se encuentra en la base de datos"
             };
         }
-        public Response<int> SolicitarEscalamiento(int idIncidencia)
+        public Response<int> SolicitarEscalamiento(SolicitudSupervisor solicitud)
         {
-            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
-
-            if (incidencia.Status)
-            {
-                return _interfaceIncidenteRepository.SolicitarEscalamiento(incidencia.Data);
-            }
-
-            return new Response<int>
-            {
-                Status = false,
-                Message = "El IdIncidencia no se encuentra en la base de datos"
-            };
+            return _interfaceIncidenteRepository.SolicitarEscalamiento(solicitud);
         }
-        public Response<int> Autorizar(int idIncidencia)
+
+        public Response<int> Autorizar(int idMovimiento)
         {
-            var incidencia = _interfaceIncidenteRepository.Obtener(idIncidencia);
-
-            if (incidencia.Status)
-            {
-                return _interfaceIncidenteRepository.Autorizar(incidencia.Data);
-            }
-
-            return new Response<int>
-            {
-                Status = false,
-                Message = "El IdIncidencia no se encuentra en la base de datos"
-            };
+            return _interfaceIncidenteRepository.Autorizar(idMovimiento);
         }
 
         public Response<Incidencia> Listar()

@@ -17,8 +17,8 @@ namespace SistemasDistribuidos.HelpDesk.Service
         Response<int> Derivar(MovimientoUsuario movimiento);
         Response<Incidencia> ObtenerIncidencia(int idIncidencia);
         Response<int> Reabrir(int idIncidencia);
-        Response<int> SolicitarEscalamiento(int idIncidencia);
-        Response<int> Autorizar(int idIncidencia);
+        Response<int> SolicitarEscalamiento(SolicitudSupervisor solicitud);
+        Response<int> Autorizar(int idMovimiento);
         Response<Incidencia> Listar();
         Response<int> Cerrar(int idIncidencia);
     }
