@@ -1,13 +1,10 @@
 ﻿using AutoMapper;
-using DocumentFormat.OpenXml.Drawing.Diagrams;
-using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Mvc;
 using SistemasDistribuidos.HelpDesk.Config;
 using SistemasDistribuidos.HelpDesk.DAO;
 using SistemasDistribuidos.HelpDesk.DTO;
 using SistemasDistribuidos.HelpDesk.Entity;
 using SistemasDistribuidos.HelpDesk.Service;
-using Swashbuckle.Swagger.Annotations;
 using System.Collections.Generic;
 
 namespace SistemasDistribuidos.HelpDesk.Api.Controllers
@@ -64,10 +61,10 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpPut]
-        [Route("escalarext")]
-        public Response<int> EscalarProvExterno(MovimientoProveedorRequest movimiento)
+        [Route("derivar")]
+        public Response<int> Derivar(MovimientoUsuarioRequest movimiento)
         {
-            return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
+            return _incidenteService.Derivar(_mapper.Map<MovimientoUsuarioRequest, MovimientoUsuario>(movimiento));
         }
 
         [HttpPut]
@@ -78,10 +75,10 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpPut]
-        [Route("derivar")]
-        public Response<int> Derivar(MovimientoUsuarioRequest movimiento)
+        [Route("escalarext")]
+        public Response<int> EscalarProvExterno(MovimientoProveedorRequest movimiento)
         {
-            return _incidenteService.Derivar(_mapper.Map<MovimientoUsuarioRequest, MovimientoUsuario>(movimiento));
+            return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
         }
 
         [HttpPut]
