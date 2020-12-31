@@ -20,5 +20,6 @@ namespace SistemasDistribuidos.HelpDesk.DAO
         Response<int> SolicitarEscalamiento(Incidencia incidencia);
         Response<int> Autorizar(Incidencia incidencia);
         Response<Incidencia> Listar();
+        Response<int> Cerrar(Incidencia incidencia);
     }
 }
