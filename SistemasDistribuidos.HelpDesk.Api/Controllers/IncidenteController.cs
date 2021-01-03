@@ -53,32 +53,32 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
             return _incidenteService.ObtenerEstado(idIncidencia);
         }
 
-        [HttpDelete]
-        [Route("anular/{idIncidencia}")]
-        public Response<int> Anular(int idIncidencia)
-        {
-            return _incidenteService.Anular(idIncidencia);
-        }
-
-        [HttpPut]
+        [HttpPost]
         [Route("derivar")]
         public Response<int> Derivar(MovimientoUsuarioRequest movimiento)
         {
             return _incidenteService.Derivar(_mapper.Map<MovimientoUsuarioRequest, MovimientoUsuario>(movimiento));
         }
 
-        [HttpPut]
+        [HttpPost]
         [Route("escalarint")]
         public Response<int> EscalarInt(MovimientoUsuarioRequest movimiento)
         {
             return _incidenteService.EscalarInt(_mapper.Map<MovimientoUsuarioRequest, MovimientoUsuario>(movimiento));
         }
 
-        [HttpPut]
+        [HttpPost]
         [Route("escalarext")]
         public Response<int> EscalarProvExterno(MovimientoProveedorRequest movimiento)
         {
             return _incidenteService.EscalarProvExt(_mapper.Map<MovimientoProveedorRequest, MovimientoProveedor>(movimiento));
+        }
+
+        [HttpPut]
+        [Route("cerrar/{idIncidencia}")]
+        public Response<int> Cerrar(int idIncidencia)
+        {
+            return _incidenteService.Cerrar(idIncidencia);
         }
 
         [HttpPut]
@@ -97,17 +97,18 @@ namespace SistemasDistribuidos.HelpDesk.Api.Controllers
         }
 
         [HttpPut]
-        [Route("autorizar")]
+        [Route("autorizar/{idMovimiento}")]
         public Response<int> Autorizar(int idMovimiento)
         {
             return _incidenteService.Autorizar(idMovimiento);
         }
 
-        [HttpPut]
-        [Route("cerrar/{idIncidencia}")]
-        public Response<int> Cerrar(int idIncidencia)
+        [HttpDelete]
+        [Route("anular/{idIncidencia}")]
+        public Response<int> Anular(int idIncidencia)
         {
-            return _incidenteService.Cerrar(idIncidencia);
+            return _incidenteService.Anular(idIncidencia);
         }
+
     }
 }
